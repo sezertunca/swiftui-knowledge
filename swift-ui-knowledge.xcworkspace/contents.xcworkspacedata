@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AppDelegateExample/AppDelegateExample.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TabbarExample/TabbarExample.xcodeproj">
    </FileRef>
    <FileRef
