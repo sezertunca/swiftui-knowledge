@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:PinnedHeaders/PinnedHeaders.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:AppDelegateExample/AppDelegateExample.xcodeproj">
    </FileRef>
    <FileRef
