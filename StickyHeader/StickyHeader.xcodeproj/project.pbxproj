@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACAEAD8C2739586700C825BA /* SwiftUIKnowledgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAEAD8B2739586700C825BA /* SwiftUIKnowledgeApp.swift */; };
-		ACAEAD8E2739586700C825BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAEAD8D2739586700C825BA /* ContentView.swift */; };
-		ACAEAD902739586A00C825BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAEAD8F2739586A00C825BA /* Assets.xcassets */; };
-		ACAEAD932739586A00C825BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAEAD922739586A00C825BA /* Preview Assets.xcassets */; };
+		ACAEADA627395C9900C825BA /* StickyHeaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAEADA527395C9900C825BA /* StickyHeaderApp.swift */; };
+		ACAEADA827395C9900C825BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAEADA727395C9900C825BA /* ContentView.swift */; };
+		ACAEADAA27395C9B00C825BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAEADA927395C9B00C825BA /* Assets.xcassets */; };
+		ACAEADAD27395C9B00C825BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAEADAC27395C9B00C825BA /* Preview Assets.xcassets */; };
+		ACAEADB427395CDE00C825BA /* StickyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAEADB327395CDE00C825BA /* StickyHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ACAEAD882739586700C825BA /* SwiftUIKnowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIKnowledge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACAEAD8B2739586700C825BA /* SwiftUIKnowledgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIKnowledgeApp.swift; sourceTree = "<group>"; };
-		ACAEAD8D2739586700C825BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ACAEAD8F2739586A00C825BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACAEAD922739586A00C825BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACAEADA227395C9900C825BA /* StickyHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickyHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAEADA527395C9900C825BA /* StickyHeaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderApp.swift; sourceTree = "<group>"; };
+		ACAEADA727395C9900C825BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACAEADA927395C9B00C825BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAEADAC27395C9B00C825BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACAEADB327395CDE00C825BA /* StickyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ACAEAD852739586700C825BA /* Frameworks */ = {
+		ACAEAD9F27395C9900C825BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +34,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ACAEAD7F2739586700C825BA = {
+		ACAEAD9927395C9900C825BA = {
 			isa = PBXGroup;
 			children = (
-				ACAEAD8A2739586700C825BA /* SwiftUIKnowledge */,
-				ACAEAD892739586700C825BA /* Products */,
+				ACAEADA427395C9900C825BA /* StickyHeader */,
+				ACAEADA327395C9900C825BA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ACAEAD892739586700C825BA /* Products */ = {
+		ACAEADA327395C9900C825BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACAEAD882739586700C825BA /* SwiftUIKnowledge.app */,
+				ACAEADA227395C9900C825BA /* StickyHeader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACAEAD8A2739586700C825BA /* SwiftUIKnowledge */ = {
+		ACAEADA427395C9900C825BA /* StickyHeader */ = {
 			isa = PBXGroup;
 			children = (
-				ACAEAD8B2739586700C825BA /* SwiftUIKnowledgeApp.swift */,
-				ACAEAD8D2739586700C825BA /* ContentView.swift */,
-				ACAEAD8F2739586A00C825BA /* Assets.xcassets */,
-				ACAEAD912739586A00C825BA /* Preview Content */,
+				ACAEADB327395CDE00C825BA /* StickyHeader.swift */,
+				ACAEADA527395C9900C825BA /* StickyHeaderApp.swift */,
+				ACAEADA727395C9900C825BA /* ContentView.swift */,
+				ACAEADA927395C9B00C825BA /* Assets.xcassets */,
+				ACAEADAB27395C9B00C825BA /* Preview Content */,
 			);
-			path = SwiftUIKnowledge;
+			path = StickyHeader;
 			sourceTree = "<group>";
 		};
-		ACAEAD912739586A00C825BA /* Preview Content */ = {
+		ACAEADAB27395C9B00C825BA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				ACAEAD922739586A00C825BA /* Preview Assets.xcassets */,
+				ACAEADAC27395C9B00C825BA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +73,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACAEAD872739586700C825BA /* SwiftUIKnowledge */ = {
+		ACAEADA127395C9900C825BA /* StickyHeader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACAEAD962739586A00C825BA /* Build configuration list for PBXNativeTarget "SwiftUIKnowledge" */;
+			buildConfigurationList = ACAEADB027395C9B00C825BA /* Build configuration list for PBXNativeTarget "StickyHeader" */;
 			buildPhases = (
-				ACAEAD842739586700C825BA /* Sources */,
-				ACAEAD852739586700C825BA /* Frameworks */,
-				ACAEAD862739586700C825BA /* Resources */,
+				ACAEAD9E27395C9900C825BA /* Sources */,
+				ACAEAD9F27395C9900C825BA /* Frameworks */,
+				ACAEADA027395C9900C825BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUIKnowledge;
-			productName = SwiftUIKnowledge;
-			productReference = ACAEAD882739586700C825BA /* SwiftUIKnowledge.app */;
+			name = StickyHeader;
+			productName = StickyHeader;
+			productReference = ACAEADA227395C9900C825BA /* StickyHeader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ACAEAD802739586700C825BA /* Project object */ = {
+		ACAEAD9A27395C9900C825BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					ACAEAD872739586700C825BA = {
+					ACAEADA127395C9900C825BA = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = ACAEAD832739586700C825BA /* Build configuration list for PBXProject "SwiftUIKnowledge" */;
+			buildConfigurationList = ACAEAD9D27395C9900C825BA /* Build configuration list for PBXProject "StickyHeader" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = ACAEAD7F2739586700C825BA;
-			productRefGroup = ACAEAD892739586700C825BA /* Products */;
+			mainGroup = ACAEAD9927395C9900C825BA;
+			productRefGroup = ACAEADA327395C9900C825BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACAEAD872739586700C825BA /* SwiftUIKnowledge */,
+				ACAEADA127395C9900C825BA /* StickyHeader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ACAEAD862739586700C825BA /* Resources */ = {
+		ACAEADA027395C9900C825BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACAEAD932739586A00C825BA /* Preview Assets.xcassets in Resources */,
-				ACAEAD902739586A00C825BA /* Assets.xcassets in Resources */,
+				ACAEADAD27395C9B00C825BA /* Preview Assets.xcassets in Resources */,
+				ACAEADAA27395C9B00C825BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ACAEAD842739586700C825BA /* Sources */ = {
+		ACAEAD9E27395C9900C825BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACAEAD8E2739586700C825BA /* ContentView.swift in Sources */,
-				ACAEAD8C2739586700C825BA /* SwiftUIKnowledgeApp.swift in Sources */,
+				ACAEADB427395CDE00C825BA /* StickyHeader.swift in Sources */,
+				ACAEADA827395C9900C825BA /* ContentView.swift in Sources */,
+				ACAEADA627395C9900C825BA /* StickyHeaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ACAEAD942739586A00C825BA /* Debug */ = {
+		ACAEADAE27395C9B00C825BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		ACAEAD952739586A00C825BA /* Release */ = {
+		ACAEADAF27395C9B00C825BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,14 +265,14 @@
 			};
 			name = Release;
 		};
-		ACAEAD972739586A00C825BA /* Debug */ = {
+		ACAEADB127395C9B00C825BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIKnowledge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StickyHeader/Preview Content\"";
 				DEVELOPMENT_TEAM = BSKZ8NR232;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -282,7 +286,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sezertunca.SwiftUIKnowledge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sezertunca.swiftui.StickyHeader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -290,14 +294,14 @@
 			};
 			name = Debug;
 		};
-		ACAEAD982739586A00C825BA /* Release */ = {
+		ACAEADB227395C9B00C825BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIKnowledge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StickyHeader/Preview Content\"";
 				DEVELOPMENT_TEAM = BSKZ8NR232;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sezertunca.SwiftUIKnowledge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sezertunca.swiftui.StickyHeader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACAEAD832739586700C825BA /* Build configuration list for PBXProject "SwiftUIKnowledge" */ = {
+		ACAEAD9D27395C9900C825BA /* Build configuration list for PBXProject "StickyHeader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACAEAD942739586A00C825BA /* Debug */,
-				ACAEAD952739586A00C825BA /* Release */,
+				ACAEADAE27395C9B00C825BA /* Debug */,
+				ACAEADAF27395C9B00C825BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACAEAD962739586A00C825BA /* Build configuration list for PBXNativeTarget "SwiftUIKnowledge" */ = {
+		ACAEADB027395C9B00C825BA /* Build configuration list for PBXNativeTarget "StickyHeader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACAEAD972739586A00C825BA /* Debug */,
-				ACAEAD982739586A00C825BA /* Release */,
+				ACAEADB127395C9B00C825BA /* Debug */,
+				ACAEADB227395C9B00C825BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ACAEAD802739586700C825BA /* Project object */;
+	rootObject = ACAEAD9A27395C9900C825BA /* Project object */;
 }
