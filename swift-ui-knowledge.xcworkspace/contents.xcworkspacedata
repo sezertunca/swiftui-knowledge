@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Practice/KeyboardInput/KeyboardInput.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ScrollViewReader/ScrollViewReader.xcodeproj">
    </FileRef>
    <FileRef
