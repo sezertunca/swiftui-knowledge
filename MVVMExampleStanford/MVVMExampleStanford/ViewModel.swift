@@ -1,47 +1,31 @@
 //
-//  ViewModel.swift
+//  Model.swift
 //  MVVMExampleStanford
 //
 //  Created by Sezer Tunca on 08/11/2021.
 //
 
-import Foundation
+import SwiftUI
 
-struct ViewModel<CardContent> {
+class ViewModel: ObservableObject {
     
-    private(set) var cards: [Card]
+    static let emojis = ["✈️", "🚒", "🚆",  "🛺", "🛻", "🚑", "🛵", "🚖", "🚘", "🚀", "🚁", "🛸", "🛶", "⛵️",  "🛥", "🛳"]
     
-    init(numberOfPairsOfCards: Int, createCardContent: (Int) -> CardContent) {
-        cards = [Card]()
-        // Add numberOfPairsOfCards x 2 cards to cards array
-        for pairIndex in 0..<numberOfPairsOfCards {
-            let content: CardContent = createCardContent(pairIndex)
-            cards.append(Card(id: pairIndex * 2, content: content))
-            cards.append(Card(id: pairIndex * 2 + 1, content: content))
+    @Published private var model: Model<String> = createMemoryGame()
+    
+    static func createMemoryGame() -> Model<String> {
+        Model<String>(numberOfPairsOfCards: 4) { pairIndex in
+            ViewModel.emojis[pairIndex]
         }
     }
-    
-    mutating func choose (_ card: Card) {
-        let chosenIndex = index(of: card)
-        cards[chosenIndex].isFaceUp.toggle()
-        print("\(cards)")
+        
+    var cards: [Model<String>.Card] {
+        model.cards
     }
     
-    func index(of card: Card) -> Int {
-        
-        for index in 0..<cards.count {
-            if cards[index].id == card.id {
-                return index
-            }
-        }
-        
-        return 0 // bogus!
-    }
+    // MARK: Intent (s)
     
-    struct Card: Identifiable {
-        var id: Int
-        var isFaceUp: Bool = true
-        var isMatched: Bool = false
-        var content: CardContent
+    func choose(_ card: Model<String>.Card) {
+        model.choose(card)
     }
 }

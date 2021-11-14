@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct MainApp: App {
     
-    let game = Model()
+    let game = ViewModel()
     
     var body: some Scene {
         WindowGroup {

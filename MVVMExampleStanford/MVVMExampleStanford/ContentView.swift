@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @ObservedObject var viewModel: Model
+    @ObservedObject var viewModel: ViewModel
     
     var body: some View {
         
@@ -31,11 +31,11 @@ struct ContentView: View {
 
 struct CardView: View {
     
-    let card: ViewModel<String>.Card
+    let card: Model<String>.Card
         
     var body: some View {
         ZStack {
-            let shape = RoundedRectangle(cornerRadius: 20)
+            let shape = RoundedRectangle(cornerRadius: 10)
             if card.isFaceUp {
                     shape
                     .fill(.white)
@@ -65,7 +65,7 @@ struct ContentView_Previews: PreviewProvider {
 
     static var previews: some View {
         
-        let game = Model()
+        let game = ViewModel()
         ContentView(viewModel: game)
 .previewInterfaceOrientation(.portrait)
         ContentView(viewModel: game).preferredColorScheme(.dark)
