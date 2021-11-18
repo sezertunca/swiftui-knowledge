@@ -2,16 +2,16 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../Practice/TextEditorPlaceholder/TextEditorPlaceholder.xcodeproj">
+      location = "group:TextEditorPlaceholder/TextEditorPlaceholder.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../Practice/Submenu/Submenu.xcodeproj">
+      location = "group:Submenu/Submenu.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../Practice/Components/Components.xcodeproj">
+      location = "group:Components/Components.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../Practice/KeyboardInput/KeyboardInput.xcodeproj">
+      location = "group:KeyboardInput/KeyboardInput.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:ScrollViewReader/ScrollViewReader.xcodeproj">
