@@ -14,6 +14,8 @@ struct CapsuleActionButton: View {
     private let backgroundColor: Color
     private let actionBlock: (() -> Void)
     
+    let padding: EdgeInsets = .init(top: 0, leading: 10, bottom: 0, trailing: 0)
+    
     init(title: String,
          backgroundColor: Color,
          size: CGSize,
@@ -26,23 +28,10 @@ struct CapsuleActionButton: View {
     }
     
     var body: some View {
-//        Button {
-//            actionBlock()
-//        } label: {
-//            Text(title)
-//                .frame(width: size.width, height: size.height)
-//                .background(Color.black)
-//                .foregroundColor(Color.white)
-//                .clipShape(Capsule())
-//                .padding(.horizontal)
-//                .font(.footnote)
-//        }
-        Button {
-            
-        } label: {
-          Text("This is a custom button")
-        }
+        Button("Custom button") { }
         .buttonStyle(CapsuleButtonStyle())
+        .padding(padding)
+        
     }
 }
 
@@ -57,7 +46,8 @@ struct CapsuleActionButton_Previews: PreviewProvider {
 struct CapsuleButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
         return configuration.label
-            .frame(width: 125, height: 30)
+            .frame(width: 200, height: 30)
+            .padding(.horizontal)
             .background(Color.black)
             .foregroundColor(Color.white)
             .clipShape(Capsule())
