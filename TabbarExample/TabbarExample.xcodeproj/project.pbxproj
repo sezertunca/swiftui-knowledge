@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1AAF112766644500793847 /* CustomTabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1AAF102766644500793847 /* CustomTabBarItemView.swift */; };
+		AC1AAF142766672900793847 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1AAF132766672900793847 /* CustomTabBarView.swift */; };
+		AC1AAF162766695F00793847 /* TabBarItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1AAF152766695F00793847 /* TabBarItemPreferenceKey.swift */; };
+		AC1AAF1827666BD100793847 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1AAF1727666BD100793847 /* TabBarItem.swift */; };
 		ACAEADE02739603100C825BA /* TabbarExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAEADDF2739603100C825BA /* TabbarExampleApp.swift */; };
 		ACAEADE22739603100C825BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAEADE12739603100C825BA /* ContentView.swift */; };
 		ACAEADE42739603400C825BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAEADE32739603400C825BA /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC1AAF102766644500793847 /* CustomTabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarItemView.swift; sourceTree = "<group>"; };
+		AC1AAF132766672900793847 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		AC1AAF152766695F00793847 /* TabBarItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemPreferenceKey.swift; sourceTree = "<group>"; };
+		AC1AAF1727666BD100793847 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		ACAEADDC2739603100C825BA /* TabbarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAEADDF2739603100C825BA /* TabbarExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarExampleApp.swift; sourceTree = "<group>"; };
 		ACAEADE12739603100C825BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +46,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC1AAF12276664C800793847 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				AC1AAF102766644500793847 /* CustomTabBarItemView.swift */,
+				AC1AAF132766672900793847 /* CustomTabBarView.swift */,
+				AC1AAF152766695F00793847 /* TabBarItemPreferenceKey.swift */,
+				AC1AAF1727666BD100793847 /* TabBarItem.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		ACAEADD32739603100C825BA = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +76,7 @@
 		ACAEADDE2739603100C825BA /* TabbarExample */ = {
 			isa = PBXGroup;
 			children = (
+				AC1AAF12276664C800793847 /* Custom */,
 				ACAEADDF2739603100C825BA /* TabbarExampleApp.swift */,
 				ACAEADE12739603100C825BA /* ContentView.swift */,
 				ACAEADED2739604C00C825BA /* HomeView.swift */,
@@ -149,8 +169,12 @@
 				ACAEADF02739605500C825BA /* SearchView.swift in Sources */,
 				ACAEADEE2739604C00C825BA /* HomeView.swift in Sources */,
 				ACAEADF22739605E00C825BA /* ProfileView.swift in Sources */,
+				AC1AAF1827666BD100793847 /* TabBarItem.swift in Sources */,
+				AC1AAF162766695F00793847 /* TabBarItemPreferenceKey.swift in Sources */,
+				AC1AAF112766644500793847 /* CustomTabBarItemView.swift in Sources */,
 				ACAEADE22739603100C825BA /* ContentView.swift in Sources */,
 				ACAEADE02739603100C825BA /* TabbarExampleApp.swift in Sources */,
+				AC1AAF142766672900793847 /* CustomTabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
