@@ -1,23 +1,23 @@
 import SwiftUI
 
-struct CustomTabBarView<Content: View>: View {
+struct CustomTabBarContainerView<Content: View>: View {
     
-    @Binding var selection: TabBarItem
     let content: Content
     @State private var tabs = [TabBarItem]()
+    @State private var selectedTab: TabBarItem = .empty
     
-    public init(selection: Binding<TabBarItem>, @ViewBuilder content: () -> Content) {
-        self._selection = selection
+    public init(@ViewBuilder content: () -> Content) {
         self.content = content()
+        if let tabs = content() as? [TabBarItem],
+           let first = tabs.first  {
+            self.selectedTab = first
+        }
     }
     
     var body: some View {
-        
         ZStack(alignment: .bottom) {
-            content
-                .ignoresSafeArea()
-            CustomTabBarItemView(tabs: tabs, selection: $selection, localSelection: selection)
-
+            content.ignoresSafeArea()
+            CustomTabBarItemView(tabs: tabs, selection: $selectedTab)
         }
         .onPreferenceChange( TabBarItemPreferenceKey.self) { value in
             self.tabs = value
@@ -28,7 +28,7 @@ struct CustomTabBarView<Content: View>: View {
 struct CustomTabBarView_Previews: PreviewProvider {
     static var previews: some View {
                 
-        CustomTabBarView(selection: .constant(.home)) {
+        CustomTabBarContainerView {
             Color.red
         }
     }
